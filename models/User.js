@@ -13,7 +13,7 @@ const UserSchema = new Schema(
       unique: true,
       required: true,
       match: [/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/],
-      // the validation that is required
+      // the mongoose validation that is required
     },
     thoughts: [
       {
