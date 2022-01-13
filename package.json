@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "A API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwbranch4/Social-Network-API.git"
+  },
+  "author": "James Branch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jwbranch4/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Jwbranch4/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.6"
+  }
+}
